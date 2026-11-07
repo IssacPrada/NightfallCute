@@ -1,4 +1,79 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("MAIN", "Synapse")
+local Tab = Window:NewTab("Get Our Power")
+local Section = Tab:NewSection("Click button")
+Section:NewButton("Vampire Kit", "", function()
+    print("Clicked")
+    local Event = game:GetService("ReplicatedStorage").SpellEvent.ServerEvents.AddItemToWheel
+firesignal(Event.OnClientEvent, 
+    "Spine Break",
+    "rbxassetid://88895869301413",
+    "items2"
+)
 local Event = game:GetService("ReplicatedStorage").SpellEvent.ServerEvents.AddItemToWheel
+firesignal(Event.OnClientEvent, 
+    "NeckSnap",
+    "rbxassetid://88895869301413",
+    "items2"
+)
+local Event = game:GetService("ReplicatedStorage").SpellEvent.ServerEvents.AddItemToWheel
+firesignal(Event.OnClientEvent, 
+    "Eye Gouge",
+    "rbxassetid://88895869301413",
+    "items2"
+)
+local Event = game:GetService("ReplicatedStorage").SpellEvent.ServerEvents.AddItemToWheel
+firesignal(Event.OnClientEvent, 
+    "Throat Rip",
+    "rbxassetid://88895869301413",
+    "items2"
+)
+local Event = game:GetService("ReplicatedStorage").SpellEvent.ServerEvents.AddItemToWheel
+firesignal(Event.OnClientEvent, 
+    "Blink Attack",
+    "rbxassetid://88895869301413",
+    "items2"
+)
+local Event = game:GetService("ReplicatedStorage").SpellEvent.ServerEvents.AddItemToWheel
+firesignal(Event.OnClientEvent, 
+    "Mist Maw",
+    "rbxassetid://88895869301413",
+    "items2"
+)
+local Event = game:GetService("ReplicatedStorage").SpellEvent.ServerEvents.AddItemToWheel
+firesignal(Event.OnClientEvent, 
+    "Mist Charge",
+    "rbxassetid://88895869301413",
+    "items2"
+)
+local Event = game:GetService("ReplicatedStorage").SpellEvent.ServerEvents.AddItemToWheel
+firesignal(Event.OnClientEvent, 
+    "Skyfall Reaver",
+    "rbxassetid://88895869301413",
+    "items2"
+)
+local Event = game:GetService("ReplicatedStorage").SpellEvent.ServerEvents.AddItemToWheel
+firesignal(Event.OnClientEvent, 
+    "Vampire Step",
+    "rbxassetid://88895869301413",
+    "items2"
+)
+local Event = game:GetService("ReplicatedStorage").SpellEvent.ServerEvents.AddItemToWheel
+firesignal(Event.OnClientEvent, 
+    "Wrist Snap",
+    "rbxassetid://88895869301413",
+    "items2"
+)
+local Event = game:GetService("ReplicatedStorage").SpellEvent.ServerEvents.AddItemToWheel
+firesignal(Event.OnClientEvent, 
+    "Blood Heal",
+    "rbxassetid://88895869301413",
+    "items2"
+)
+end)
+Section:NewButton("Wolf Kit", "", function()
+    print("Clicked")
+    local Event = game:GetService("ReplicatedStorage").SpellEvent.ServerEvents.AddItemToWheel
 firesignal(Event.OnClientEvent, 
     "Clawed Boxing",
     "rbxassetid://88895869301413",
@@ -34,3 +109,4 @@ firesignal(Event.OnClientEvent,
     "rbxassetid://88895869301413",
     "items2"
 )
+end)
