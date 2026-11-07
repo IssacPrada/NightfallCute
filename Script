@@ -1,0 +1,36 @@
+local Event = game:GetService("ReplicatedStorage").SpellEvent.ServerEvents.AddItemToWheel
+firesignal(Event.OnClientEvent, 
+    "Clawed Boxing",
+    "rbxassetid://88895869301413",
+    "items2"
+)
+local Event = game:GetService("ReplicatedStorage").SpellEvent.ServerEvents.AddItemToWheel
+firesignal(Event.OnClientEvent, 
+    "Gut Kick",
+    "rbxassetid://88895869301413",
+    "items2"
+)
+local Event = game:GetService("ReplicatedStorage").SpellEvent.ServerEvents.AddItemToWheel
+firesignal(Event.OnClientEvent, 
+    "Menacing Glare",
+    "rbxassetid://88895869301413",
+    "items2"
+)
+local Event = game:GetService("ReplicatedStorage").SpellEvent.ServerEvents.AddItemToWheel
+firesignal(Event.OnClientEvent, 
+    "Dragging Pounce",
+    "rbxassetid://88895869301413",
+    "items2"
+)
+local Event = game:GetService("ReplicatedStorage").SpellEvent.ServerEvents.AddItemToWheel
+firesignal(Event.OnClientEvent, 
+    "Body Slam",
+    "rbxassetid://88895869301413",
+    "items2"
+)
+local Event = game:GetService("ReplicatedStorage").SpellEvent.ServerEvents.AddItemToWheel
+firesignal(Event.OnClientEvent, 
+    "Wolf Bite",
+    "rbxassetid://88895869301413",
+    "items2"
+)
